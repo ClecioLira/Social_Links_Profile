@@ -6,7 +6,7 @@
 }
 
 #perfil {
-    padding: 2.5rem 0 1.5rem 0;
+    padding: 1rem 0 1.5rem 0;
 }
 #perfil p {
     color: yellow;
@@ -50,7 +50,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 670px;
+    height: 600px;
     text-align: center;
 
     background-color: #1F1F1F;
