@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#perfil {
+    padding: 2.5rem 0 1.5rem 0;
+}
+#perfil p {
+    color: yellow;
+}
+
+#profissao {
+    padding: 0 0 1.5rem 0;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#links a {
+    color: #A5A5A5;
+    background-color: #141414;
+    width: 300px;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+#links a:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+body {
+    background-color: #141414;
+    color: #A5A5A5;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 670px;
+    text-align: center;
+
+    background-color: #1F1F1F;
+    border-radius: .5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid ;
+}
